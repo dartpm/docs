@@ -1,3 +1,0 @@
----
-title: About private packages
----
