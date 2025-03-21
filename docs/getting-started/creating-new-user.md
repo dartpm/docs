@@ -28,7 +28,7 @@ If you do not already have a dartpm user account, you can create an account in o
 Install dartpm cli tool using dart cli tool
 
 ```
-dart pub global activate --source hosted --hosted-url "http://dartpm.com" dartpm
+dart pub global activate --source hosted --hosted-url "https://dartpm.com" dartpm
 ```
 
 Use the `dartpm login` command to test logging in to your new account.
