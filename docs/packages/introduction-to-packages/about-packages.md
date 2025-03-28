@@ -1,9 +1,13 @@
 ---
-title: About dart and flutter packages
+title: About packages & plugins
 ---
 
-# About Dart and Flutter Packages
+Use the official dart docs to refer dart packages.<br />
+https://dart.dev/tools/pub/create-packages
 
+Use the official flutter docs to refer flutter packages and plugins.<br />
+https://docs.flutter.dev/packages-and-plugins/developing-packages
+<!-- 
 In the world of Dart and Flutter development, packages are essential building blocks that allow developers to share, reuse, and manage code efficiently. Understanding the distinction between packages and modules is important for effectively using dartpm to manage your Dart and Flutter packages in a private registry.
 
 ## About Packages
@@ -25,4 +29,4 @@ While dartpm allows both Dart and Flutter packages to be managed securely, you c
 ## Using Packages in dartpm
 Once you’ve published your Dart or Flutter packages on dartpm, you can share them with your team, colleagues, or within your organization. These packages can be installed and used by importing them into your Dart or Flutter projects using the pub get command or adding them directly to your pubspec.yaml file.
 
-By leveraging dartpm, you maintain full control over the distribution and access of your packages. You can ensure that your private code remains secure while facilitating collaboration among your development teams.
+By leveraging dartpm, you maintain full control over the distribution and access of your packages. You can ensure that your private code remains secure while facilitating collaboration among your development teams. -->

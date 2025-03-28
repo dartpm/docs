@@ -12,14 +12,26 @@ For more information about package visibility, see ["Package scope, access level
 ## Making a public package private
 If you want to restrict access and visibility for a public package you own, you can make the package private. When you make a package private, its access will be updated immediately and it will be removed from the website within a few minutes of the change.
 
-### Using the website
-On the dartpm website, go to the package page.
-On the package page, click Settings.
-Update package settings.
+### Using the website (Recommended)
+- On the dartpm website, go to the package page.
+- On the package page, click Settings.
+- Update package settings.
+
+### Using the `access` key in pubspce.yaml  (If using access field)
+Add `access` field to an existing package and publish new version.
+```title=pubspec.yaml
+access: "private"
+```
 
 ## Making a private package public
 
-### Using the website
+### Using the website (Recommended)
 On the dartpm website, go to the package page.
 On the package page, click Settings.
 Update package settings.
+
+### Using the `access` key in pubspce.yaml (If using access field)
+Add `access` field to an existing package and publish new version.
+```title=pubspec.yaml
+access: "public"
+```
