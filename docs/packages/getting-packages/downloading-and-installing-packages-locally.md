@@ -7,14 +7,13 @@ You can install a package locally if you want to depend on the package from your
 
 :::info[Note]
 dartpm cli is using dart cli tool, so the dartpm add is running complex dart command. 
-dart command can only be used if dartpm cli is logged in or granular token is set for the scope. 
 :::
 
 ## Installing an unscoped package
 Unscoped packages are always public, which means they can be downloaded and installed by anyone. To install a public package, on the command line, run
 
 ```bash
-dartpm add package-name
+dartpm add <package-name>
 OR
 dart pub add '<package-name>:{"hosted":"https://dartpm.com"}'
 ```
@@ -23,19 +22,24 @@ dart pub add '<package-name>:{"hosted":"https://dartpm.com"}'
 Scoped public packages can be downloaded and installed by anyone, as long as the scope name is refenced during installation:
 
 ```bash
-dartpm add scope/package-name
+dartpm add <scope>/<package-name>
 OR
-dart pub add '<package-name>:{"hosted":"https://dartpm.com"}'
+dart pub add '<package-name>:{"hosted":"https://dartpm.com/registry/<scope>"}'
 ```
 
 ## Installing a scoped private package
+
+:::info[Note]
+Can install packages only if dartpm cli is logged in or granular token is set for the scope. 
+::: 
+
 Scoped private packages can be downloaded and installed by only who have access. 
 
 ### Installing package using dartpm account
 User can install the package which user have access to.
 
 ```bash
-dartpm add scope/package-name
+dartpm add <scope>/<package-name>
 OR
 dart pub add '<package-name>:{"hosted":"https://dartpm.com/registry/<scope>"}'
 ```

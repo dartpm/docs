@@ -12,7 +12,7 @@ dartpm consists of three main components:
   The web interface allows users to manage their Dart and Flutter packages, set up profiles, and organize teams. You can also use the website to create or manage organizations, invite members, and manage permissions for both public and private packages.
 
 - **The Command Line Interface (CLI)**  
-  The CLI is the main tool for interacting with dartpm. It allows users to publish and retrieve Dart and Flutter packages, manage authentication, and interact with dartpm from the terminal. You can also use the CLI to automate package management tasks.
+  The CLI is the important tool for interacting with dartpm. It allows users to publish and retrieve Dart and Flutter packages, manage authentication, and interact with dartpm from the terminal. You can also use the CLI to automate package management tasks.
 
 - **The Registry**  
   The dartpm registry is a secure, private repository for hosting and managing Dart and Flutter packages. The registry supports both public and private packages, with access controls in place to ensure that only authorized users can access certain packages.
@@ -34,7 +34,7 @@ To get started with dartpm, you can create an account using SSO. Once your accou
 To get started with dartpm, follow these steps:
 
 1. [Create an account](https://dartpm.com/login) using SSO.
-2. [Install](#) the dartpm CLI on your machine.
+2. [Install](./dartpm-cli/install-and-setup.md) the dartpm CLI on your machine.
 3. Begin managing your Dart and Flutter packages and collaborating with your team.
 
 ## Sharing Packages and Collaborating with Others
@@ -52,7 +52,7 @@ dartpm is committed to providing a secure environment for your Dart and Flutter 
 - We do not collect any personal information during account creation or usage.
 - Packages stored on dartpm are protected by strict access controls.
 - Only users with explicit consent can access private packages.
-- In the event that a paid subscription is canceled, your packages will remain safe but will not be accessible until the subscription is renewed. The packages can be removed by deleting organisation.
+- In the event that a paid subscription is canceled, your packages will remain safe but will not be accessible until the subscription is renewed. The packages can be removed by deleting organization.
 
 ## Learn More
 

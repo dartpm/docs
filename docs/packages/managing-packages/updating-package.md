@@ -12,5 +12,5 @@ version: 1.0.X
 
 2. Publish the new version
 ```bash
-dart pub publish
+dartpm publish
 ```

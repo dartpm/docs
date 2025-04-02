@@ -6,16 +6,12 @@ With dartpm private packages, you can use the dartpm registry to host code that 
 
 Private packages always have a scope, and scoped packages are private by default.
 
-- User-scoped private packages can only be accessed by you.
-    ```
-    publish_to: "https://dartpm.com/registry/username"
-    ```
+- User-scoped private packages can only be accessed by only you using registry "https://dartpm.com/registry/username"
 
-- Organisation-scoped private packages can only be accessed by teams that have been granted read or read/write access. For more information, see "Managing team access to organisation packages".
-    ```  
-    publish_to: "https://dartpm.com/registry/org-name"
-    ```
+- Organization-scoped private packages can only be accessed by teams that have been granted read or read/write access. Registry for the organiation is "https://dartpm.com/registry/org-name"
+    
+For more information, see "Managing team access to organization packages".
 
 ## Next steps
-- "Creating and publishing private packages"
-- "Using npm packages in your projects"
+- ["Creating and publishing private packages"](../publish-packages/publish-private-packages)
+- ["Using npm packages in your projects"](../getting-packages/downloading-and-installing-packages-locally)

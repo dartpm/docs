@@ -8,7 +8,7 @@ As a dartpm user, you can create unscoped packages to use in your own projects a
 ## Creating and publishing an unscoped public package
 
 :::info[Note]
-This article preassumes that you already have dartpm command line tool installed and login. To install, visit dartpm cli installation. To login, visit dartpm dartpm cli login.
+This article preassumes that you already have dartpm command line tool installed and login. To install and setup, visit ["dartpm cli installation"](../../dartpm-cli/install-and-setup.md)
 :::
 
 1. On the command line, create a directory for your package.
