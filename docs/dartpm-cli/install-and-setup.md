@@ -31,7 +31,7 @@ dartpm login
 dartpm do not store any secret token other then inside dart token manager. This imporves risk of loosing secrets. 
 
 :::info[Note]
-If you are added to new organisation or removed from the organisation, do `dartpm login` again to sync the sessions. 
+If you are added to new organization or removed from the organization, do `dartpm login` again to sync the sessions. 
 :::
 
 

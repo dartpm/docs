@@ -35,7 +35,7 @@ This article preassumes that you already have dartpm command line tool installed
 
 4. Run the publish command
     ```bash
-    dartpm publish
+    dart pub publish
     ```
 
 5. If organization don't allow private packages then the published package will be public, otherwise all the published package are private and there status can be changed from package settings in web.

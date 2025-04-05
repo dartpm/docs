@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Logout
+title: logout
 ---
 
 Logout from all organizations and account from last session.

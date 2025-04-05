@@ -36,7 +36,7 @@ This article preassumes that you already have dartpm command line tool installed
 
 4. Run the publish command
     ```bash
-    dartpm publish
+    dart pub publish
     ```
 
 :::tip[TIP]

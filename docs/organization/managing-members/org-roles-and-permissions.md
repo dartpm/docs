@@ -12,15 +12,15 @@ There are three roles in an organization:
 On the dartpm registry, you cannot remove the last owner from an organization. To delete an organization, contact dartpm support.
 
 
-Action | Admin | Member | Viewer |
+Action | Owner | Admin | Member |
 --- | --- | --- | --- |
+Rename an organization | | |
 Manage organization billing	 | ✅ | |
-Add members to the organization	| ✅ | |
-Remove members from the organization | ✅ | |
-Rename an organization | ✅ | |
 Delete an organization | ✅ | |
-Change any organization member's role | ✅ | |
-Add org owned packages to other orgs | ✅ | |	
+Add members to the organization	| ✅ | ✅ |
+Remove members from the organization | ✅ | ✅ |
+Change any organization member's role | ✅ | ✅ |
+Add org owned packages to other orgs | ✅ | ✅ |	
 Create teams | ✅ | ✅ | 
 Delete teams | ✅ | ✅ | 
 Add any member to any team | ✅ | ✅ | 
