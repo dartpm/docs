@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-title: Adding organization members to teams
+sidebar_position: 4
+title: Removing organization members from teams
 ---
 
 import loginSignupImg from './img/login-signup.png';
@@ -8,14 +8,9 @@ import accountDropdownImg from './img/account-dropdown.png';
 import orgSidebaseImg from './img/org-sidebar.png';
 import teamsOrgbarImg from './img/teams-orgbar.png';
 import teamRowImg from './img/team-row.png';
-import addTeamMemberImg from './img/add-team-member.png';
+import teamMemberRowImg from './img/team-member-row.png';
 
-
-As an organization owner or team admin, you can add organization members to teams to give them access to a specific set of packages governed by the organization.
-
-:::info[Note]
-The dartpm user must be a member of your organization before you can add them to a team. To add a member to you organization, see "Adding members to your organization".
-:::
+As an organization owner or team admin, you can remove organization members from team if they no longer need access to packages accessible to the team. 
 
 1. On the dartpm ["Sign In"](https://dartpm.com/login) page, enter your account details and click Sign In.
 
@@ -37,13 +32,12 @@ The dartpm user must be a member of your organization before you can add them to
 
 <img src={teamRowImg} width="700" style={{border: '1px solid #ccc', borderRadius: '8px'}}/>
 
-6. In the "Username" field, type the dartpm usernae of the organization member you would like to add to your team. 
+6. In the list of team members, find the member you want to remove. 
 
-7. Click "Add User".
+<img src={teamMemberRowImg} width="700" style={{border: '1px solid #ccc', borderRadius: '8px'}}/>
 
-<img src={addTeamMemberImg} width="700" style={{border: '1px solid #ccc', borderRadius: '8px'}}/>
+7. In the member row, to remove the member from the team, click X.
 
 :::info[Note]
-organization members are not notified when they are added to a team. We recommend telling the organization member you have added them to a team.
+Removing a member from a team, even if it is the only team they are a member of, will not remove them from the organization. To remove a member from the organization, see "Removing members from your organization".
 :::
-

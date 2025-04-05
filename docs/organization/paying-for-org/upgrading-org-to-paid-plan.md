@@ -1,14 +1,46 @@
 ---
 sidebar_position: 1
-title: Upgrading to a paid organisation plan
+title: Upgrading to a paid plan
 ---
 
+As an organization owner, you can upgrade your organization to a paid plan to access additional features.
+
+## Benefits of the paid plan
+
+The dartpm Organization paid plan includes:
+
+- Private package publishing
+- Unlimited package storage
+- Priority support
+- Advanced security features
+- Team management tools
+
+## Pricing
+
+The paid plan costs $12 per month per user. You are billed for:
+
+- All current organization members
+- Any new members added during the billing cycle
+
+## How to upgrade
+
+1. Log in to your dartpm account
+2. Navigate to your organization settings
+3. Click on "Billing"
+4. Select "Upgrade to paid plan"
+5. Choose your payment method
+6. Confirm the upgrade
+
 :::info[Note]
-This article only applies to users of the public dartpm registry.
+You can add or remove members at any time. Changes to your bill will be reflected in the next billing cycle.
 :::
 
-As an organisation owner, you can upgrade your free organisation plan to the dartpm Organisation product. dartpm Organisation is a paid plan to give organisation members the ability to install and publish private packages. For more information about dartpm Organisation pricing plans, see the "dartpm Organisation" section of our pricing page.
+## After upgrading
 
-If you have an organisation with a private packages plan, your organisation will cost you twelve (12) dollars a month per user. The $12 charge is a flat fee for any member of the organisation even if the teams the member belongs do not have access to private packages
+Once upgraded, you'll have immediate access to all paid features. Your organization members will be able to:
 
-Newly added members to an organisation are always billed during the current billing cycle. For more information, see "Adding members to your organisation".
+- Publish private packages
+- Access advanced security features
+- Use team management tools
+
+For any questions about your paid plan, contact dartpm support.

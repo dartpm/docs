@@ -12,7 +12,7 @@ dartpm consists of three main components:
   The web interface allows users to manage their Dart and Flutter packages, set up profiles, and organize teams. You can also use the website to create or manage organizations, invite members, and manage permissions for both public and private packages.
 
 - **The Command Line Interface (CLI)**  
-  The CLI is the important tool for interacting with dartpm. It allows users to publish and retrieve Dart and Flutter packages, manage authentication, and interact with dartpm from the terminal. You can also use the CLI to automate package management tasks.
+  The CLI is an important tool for interacting with dartpm. It allows users to publish and retrieve Dart and Flutter packages, manage authentication, and interact with dartpm from the terminal. You can also use the CLI to automate package management tasks.
 
 - **The Registry**  
   The dartpm registry is a secure, private repository for hosting and managing Dart and Flutter packages. The registry supports both public and private packages, with access controls in place to ensure that only authorized users can access certain packages.
@@ -43,7 +43,7 @@ dartpm allows you to publish both public and private Dart and Flutter packages. 
 
 You can organize your projects into teams by creating organizations. Each organization can have different permissions for package access, allowing you to control who can publish, edit, or access your private packages. Organizations can also share packages with other companies via secure tokens.
 
-If you're working within a company, dartpm enables you to share packages with other organizations by creating a fine tuned granular token.
+If you're working within a company, dartpm enables you to share packages with other organizations by creating a fine-tuned granular token.
 
 ## Security and Privacy
 
@@ -52,7 +52,7 @@ dartpm is committed to providing a secure environment for your Dart and Flutter 
 - We do not collect any personal information during account creation or usage.
 - Packages stored on dartpm are protected by strict access controls.
 - Only users with explicit consent can access private packages.
-- In the event that a paid subscription is canceled, your packages will remain safe but will not be accessible until the subscription is renewed. The packages can be removed by deleting organization.
+- In the event that a paid subscription is canceled, your packages will remain safe but will not be accessible until the subscription is renewed. The packages can be removed by deleting the organization.
 
 ## Learn More
 

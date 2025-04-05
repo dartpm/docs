@@ -1,14 +1,21 @@
 ---
-title: About public packages
+title: About Public Packages
 ---
 
-As an dartpm user or organisation user(Member/Admin), you can create and publish public packages that anyone can download and use in their own projects.
+As a dartpm user or organization user (Member/Admin), you can create and publish public packages that anyone can download and use in their own projects.
 
-- Unscoped public packages exist in the global public registry namespace "https://dartpm.com"
+Public packages can be either scoped or unscoped:
 
-- Scoped public packages belong to a user or organisation and must be preceded by the user or organisation name when included as a dependency 
-  - For user account registry is "https://dartpm.com/registry/username"
-  - For organisation registry is"https://dartpm.com/registry/org-name"
+- Scoped public packages belong to a user or organization and must be preceded by the user or organization name when included as a dependency
+- For organization registry: "https://dartpm.com/registry/org-name"
+- For user registry: "https://dartpm.com/registry/username"
+
+## Benefits of Public Packages
+
+- Free to use
+- No authentication required
+- Accessible to everyone
+- Can be used in both public and private projects
 
 Next steps
 

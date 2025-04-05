@@ -1,17 +1,18 @@
 ---
 sidebar_position: 3
-title: Organisation roles and permissions
+title: Organization Roles and Permissions
 ---
 
-There are three roles in an organisation: 
-- Admin: 
-- Member:
-- Viewer:
+There are three roles in an organization:
 
-On the dartpm registry, you cannot remove the last owner from an organisation. To delete an organisation, contact dartpm support.
+- **Owner**: Can manage organization settings, members, and packages
+- **Admin**: Can manage members and packages
+- **Member**: Can view and use packages
+
+On the dartpm registry, you cannot remove the last owner from an organization. To delete an organization, contact dartpm support.
 
 
-Action | Owner | Admin | Member |
+Action | Admin | Member | Viewer |
 --- | --- | --- | --- |
 Manage organization billing	 | ✅ | |
 Add members to the organization	| ✅ | |

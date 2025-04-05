@@ -1,19 +1,25 @@
 ---
 sidebar_position: 1
-title: logout
+title: Logout
 ---
 
-# dartpm logout
+Logout from all organizations and account from last session.
 
-Logout from all the organisation and account from last session.
+## Usage
 
-## Synopsis
 ```bash
 dartpm logout
 ```
 
-Note: This command is unaware of workspaces.
-
 ## Description
-This will remove all the token set for the organisation and user account from last login session. 
-This do not affect granular token or other cli token set otherwise. 
+
+This will remove all the tokens set for the organizations and user account from last login session.
+
+## Examples
+
+```bash
+# Logout from all organizations and account
+dartpm logout
+```
+
+Note: This command is unaware of workspaces.
